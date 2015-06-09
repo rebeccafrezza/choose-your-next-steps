@@ -1,0 +1,1170 @@
+<!DOCTYPE html>
+<head>
+	<title>Rebecca's Notes</title>
+    <link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="css/cssmenu.css">
+	<script type="text/javascript" src="css/menu.js"></script>
+</head>
+<body>
+	<div id="header">
+		<h1>Introduction to Programming Nanodegree</h1>
+		<h2>Rebecca Frezza</h2>
+	</div>
+	<div id="content">
+		<div class="container">
+			<div id="sidebar">
+				<ul id="menu" class="menu">
+					<li><a href="#lesson-1">The Basics of the Web</a>
+						<ul>
+							<li><a href="#lesson-1-1">How The Web Works</a></li>
+							<li><a href="#lesson-1-2">HTML</a></li>
+							<li><a href="#lesson-1-3">Tags and Elements</a></li>
+							<li><a href="#lesson-1-4">Computers are Stupid</a></li>
+							<li><a href="#lesson-1-5">Inline vs Block</a></li>
+						</ul>
+					</li>
+					<li><a href="#lesson-2" >Structured Documents</a>
+						<ul>
+							<li><a href="#lesson-2-1">Front End Programming</a></li>
+							<li><a href="#lesson-2-2">Structure of HTML</a></li>
+							<li><a href="#lesson-2-4">Text Editors</a></li>
+						</ul>
+					</li>
+					<li><a href="#lesson-3">Adding CSS to HTML </a>
+						<ul>
+							<li><a href="#lesson-3-1">Avoid Repetition</a></li>
+							<li><a href="#lesson-3-2">CSS</a></li>
+						</ul>
+					</li>
+					<li><a href="#lesson-4">Serious Programming</a>
+						<ul>
+							<li><a href="#lesson-4-1">Computers & Programming</a></li>
+							<li><a href="#lesson-4-2">High Level Languages</a></li>
+							<li><a href="#lesson-4-3">Grammars & Backus-Naur</a></li>
+						</ul>
+					</li>
+					<li><a href="#lesson-5">Variables & Strings</a>
+						<ul>
+							<li><a href="#lesson-5-1">The Variable</a></li>
+							<li><a href="#lesson-5-2">The String</a></li>
+							<li><a href="#lesson-5-3">The Find</a></li>
+						</ul>
+					</li>
+					<li><a href="#lesson-6">Input-Function-Output</a></li>
+					<li><a href="#lesson-7">Decisions & Repetition</a>
+						<ul>
+							<li><a href="#lesson-7-1">Comparisons</a></li>
+							<li><a href="#lesson-7-2">The If</a></li>
+							<li><a href="#lesson-7-3">The Or</a></li>
+							<li><a href="#lesson-7-4">The Loop</a></li>
+						</ul>
+					</li>
+					<li><a href="#lesson-8" >Structured Data</a>
+						<ul>
+							<li><a href="#lesson-8-1">Lists</a></li>
+							<li><a href="#lesson-8-2">Operations</a></li>
+						</ul>
+					</li>
+					<li><a href="#lesson-9">In-depth Python</a>
+						<ul>
+							<li><a href="#lesson-9-1">OOP Importance</a></li>
+							<li><a href="#lesson-9-2">Abstraction</a></li>
+							<li><a href="#lesson-9-3">Modules</a></li>
+							<li><a href="#lesson-9-4">Profanity Checker</a></li>
+						</ul>
+					</li>
+					<li><a href="#lesson-10" >Classes and Objects</a>
+						<ul>
+							<li><a href="#lesson-10-1">Inheritance</a></li>
+							<li><a href="#lesson-10-2">My Analogy</a></li>
+							<li><a href="#lesson-10-3">Constructors</a></li>
+							<li><a href="#lesson-10-4">Turtle Module</a></li>
+						</ul>
+					</li>
+					<li><a href="#lesson-11">Networks and Databases</a>
+						<ul>
+							<li><a href="#lesson-11-1">Basic Vocabulary</a></li>
+							<li><a href="#lesson-11-2">How Networks Work</a></li>
+							<li><a href="#lesson-11-3">Validation</a></li>
+							<li><a href="#lesson-11-4">Examples of Validation</a></li>
+							<li><a href="#lesson-11-5">Templates</a></li>
+							<li><a href="#lesson-11-6">Abstraction</a></li>
+						</ul>
+					</li>
+					<li><a href="#lesson-12">Stage 5 Notes</a>
+						<ul>
+							<li><a href="#lesson-12-1">Variables & Literals</a></li>
+							<li><a href="#lesson-12-2">Datatypes</a></li>
+							<li><a href="#lesson-12-3">Operators</a></li>
+							<li><a href="#lesson-12-4">Truthy & Falsy </a></li>
+							<li><a href="#lesson-12-5">Functions </a></li>
+							<li><a href="#lesson-12-6">Exceptions</a></li>
+							<li><a href="#lesson-12-7">Regular Expressions</a></li>
+							<li><a href="#lesson-12-8">Decision Making </a></li>
+							<li><a href="#lesson-12-9">Objects</a></li>
+							<li><a href="#lesson-12-10">How To!</a></li>
+							<li><a href="#lesson-12-11">Events</a></li>
+							<li><a href="#lesson-12-12">Resources</a></li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+			<div id="main-content">
+				<div class="lesson">
+					<br>
+					<h2 id="lesson-1">Lesson 1: The Basics of the Web and HTML</h2>
+					<br>
+					<div class="concept" id="lesson-1-1">
+						<div class="concept-title">
+							How The Web Works
+						</div>
+						<div class="concept-description">
+							The web is a network of computers that communicate with each other. When you visit a web page, like www.google.com, your computer sends an HTTP request to a server. The server locates the appropriate HTML document and gives it to your web browser. The browser interprets the page and displays the page to your screen.
+							<br>
+							<ul>
+								<li>Invented in the 1990s</li>
+								<li>The world's largest computer network</li>
+								<li>Now has 30 billion pages</li>
+							</ul>
+						</div>
+					</div>
+					<div class="concept" id="lesson-1-2">
+						<div class="concept-title">
+							HTML
+						</div>
+						<div class="concept-description">
+							HTML stands for Hyper Text Markup Language
+							<br>
+							<ul>
+								<li>A web page is a text document written in HTML</li>
+								<li>HTML is the main document on the web and makes up the heart of the web</li>
+								<li>HTML consists of:</li>
+							</ul>
+							<ul>
+								<li style="list-style-type:none">
+									<ul>
+										<li>Text content- what you see</li>
+										<li>Markup- what it looks like</li>
+										<li>References to other documents, images, and video</li>
+										<li>Links to other pages</li>
+									</ul>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="concept" id="lesson-1-3">
+						<div class="concept-title">
+							Tags and Elements
+						</div>
+						<div class="concept-description">
+							HTML documents are made of HTML elements. When writing HTML, we tell browsers the type of each element by using HTML tags.
+							<br>
+							<ul>
+								<li>HTML Markup: &lt;name&gt; contents &lt;/name&gt;</li>
+								<li style="list-style-type:none">
+									<ul>
+										<li>&lt;name&gt; is called the <strong>opening</strong> tag</li>
+										<li>&lt;/name&gt; is called the <strong>closing</strong> tag</li>
+										<li>The <strong>element</strong> refers to the opening tag, closing tag, and what is in between the tags.</li>
+									</ul>
+								</li>
+								<li>Example elements:</li>
+								<li style="list-style-type:none">
+									<ul>
+										<li>&lt;b&gt;<strong> Creates bold text.</strong>&lt;/b&gt;</li>
+										<li>&lt;em&gt; <em>Creates emphasis or italicized text.</em> &lt;/em&gt;</li>
+										<li>&lt;br&gt;  Creates a break (blank line).</li>
+										<li style="list-style-type:none">
+											<ul>
+												<li>This is a void tag because it does not have a closing tag.</li>
+											</ul>
+										</li>
+									</ul>
+								</li>
+								<li>HTML grouping tags:</li>
+								<li style="list-style-type:none">
+									<ul>
+										<li>&lt;span&gt;  Group in-line elements, no visual change</li>
+										<li>&lt;div&gt;  Group block elements to be formatted with CSS</li>
+										<li style="list-style-type:none">
+											<ul>
+												<li>It is good practice to use &lt;div&gt; with each "imaginary box"</li>
+											</ul>
+										</li>
+									</ul>
+									
+									<li>HTML attributes are specified in the opening tag and provide additional information about the element</li>
+									<li style="list-style-type:none">
+										<ul>
+											<li>&lt;tag attr="value"&gt;contents&lt;/tag&gt;</li>
+											<li>&lt;a href="www.udacity.com"&gt;Udacity&lt;/a&gt;</li>
+											<li>&lt;img src="url" alt="text"&gt;</li>
+											<li style="list-style-type:none">
+												<ul>
+													<li>alt: Specifies alternate text. This is useful for broken requests and visually impaired users.</li>
+												</ul>
+											</li>
+										</ul>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<div class="concept" id="lesson-1-4">
+							<div class="concept-title">
+								Why Computers are Stupid
+							</div>
+							<div class="concept-description">
+								Computers are often referred to as "stupid," because they can only do what they are programmed to do. They are often very unforgiving of small mistakes made by a programmer. Programmers use code to write in a language the computer can understand. This allows the computer to execute instructions written by the programmer. No programmer writes perfect code the first time, this is where "debugging" comes into play. Debugging is the process of finding and correcting problems in the code.
+							</div>
+						</div>
+						<div class="concept" id="lesson-1-5">
+							<div class="concept-title">
+								Inline vs Block Elements
+							</div>
+							<div class="concept-description">
+								Inline element examples:
+								<ul>
+									<li>&lt;a&gt; Defines a hyperlink</li>
+									<li>&lt;br&gt;Inserts a single line break</li>
+									<li>&lt;img&gt;Defines an image</li>
+									<li>&lt;strong&gt; Defines important text</li>
+								</ul>
+								<br>
+								Block elements form an "invisible box" around the content. Example:
+								<ul>
+									<li>&lt;p&gt; paragraph &lt;/p&gt;</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="lesson">
+						<br>
+						<h2 id="lesson-2">Lesson 2: Creating a Structured Document with HTML</h2>
+						<br>
+						<div class="concept" id="lesson-2-1">
+							<div class="concept-title">
+								Front End Programming
+							</div>
+							<div class="concept-description">
+								Front end programming is the visual aspect of a website. Some front end languages are HTML, CSS, and Javascript.
+								<br>
+								A website is much like a house:
+								<ul>
+									<li><strong>HTML</strong> controls the <strong>structure</strong>, like where walls are placed.</li>
+									<li><strong>CSS</strong> controls the <strong>style</strong>, colors, etc.</li>
+									<li><strong>Javascript </strong>controls the interactive components, like a garage door.</li>
+								</ul>
+							</div>
+						</div>
+						<div class="concept" id="lesson-2-2">
+							<div class="concept-title">
+								The "tree-like structure" of HTML
+							</div>
+							<div class="concept-description">
+								Document Object Model (DOM): The "tree-like structure" of HTML
+								<br><br>
+								The "tree-like structure" comes from the fact that HTML elements can have other elements inside of them. In a browser, this structure shows up as a series of nested boxes. There are boxes inside of boxes inside of boxes, and so on...
+							</div>
+						</div>
+						<div class="concept" id="lesson-2-3">
+							<div class="concept-title">
+								The relationship between indented HTML and boxes
+							</div>
+							<div class="concept-description">
+								When you read an HTML document as
+								<em>text</em>, you see a wave of
+								changing indentations going up and down the left side
+								of the document. The more indented an element is, the
+								more deeply nested its corresponding "box" is.
+							</div>
+						</div>
+						<div class="concept" id="lesson-2-4">
+							<div class="concept-title">
+								Text Editors (for programming)
+							</div>
+							<div class="concept-description">
+								When writing code, programmers use special text editors
+								(like Sublime Text for example). These editors make the
+								programmer's life easier. For example, some text editors
+								will automatically generate a closing HTML tag when you
+								write an opening tag.
+							</div>
+						</div>
+						<div class="concept" id="lesson-2-5">
+							<div class="concept-title">
+								Layout of an HTML Document
+							</div>
+							<div class="concept-description">
+								<pre>
+									<code>
+		&lt;!DOCTYPE HTML&gt;      (this declares the document type)
+		&lt;html&gt;
+			&lt;head&gt;
+				&lt;title&gt; Title! &lt;/title&gt;        (this specifies the title of the document)
+			&lt;/head&gt;
+			&lt;body&gt; 
+				&lt;b&gt; content &lt;/b&gt;
+			&lt;/body&gt;
+		&lt;/html&gt;
+									</code>
+								</pre>
+								Between the &lt;head&gt; tags, you specify the meta-data, Javascript, and CSS involved. <br>
+								Between the &lt;body&gt; tags, you specify the body/content of the page.
+							</div>
+						</div>
+					</div>
+					<div class="lesson">
+						<br>
+						<h2 id="lesson-3">Lesson 3: Adding CSS Style to HTML Structure</h2>
+						<br>
+						<div class="concept" id="lesson-3-1">
+							<div class="concept-title">
+								Avoiding Repetition
+							</div>
+							<div class="concept-description">
+								<div class="concept-description">
+									Avoiding repetition is important for a variety of reasons.
+									<br><br>
+									<strong>Avoiding Errors:</strong> When programmers <em>don't</em> avoid repetition, they will often have to do the same thing over and over. This may mean copy and pasting certain style attributes into many HTML elements or rewriting the same code (sometimes with minor differences) many times. This can lead to errors when the programmer decides to make a change to something. If they don't dilligently make that same change everywhere the repeated code appears, problems will arise.<br><br>
+									<strong>Consistency:</strong> Easily create pages of the same style without manually doing each page. Assign similar "boxes" with the same <span class="code">class</span> and then specify the style for that class in only one place! By avoiding repetion, it's very easy to make style changes.
+								</div>
+							</div>
+						</div>
+						<div class="concept" id="lesson-3-2">
+							<div class="concept-title">
+								CSS
+							</div>
+							<div class="concept-description">
+								CSS stands for Cascading Style Sheets. This uses the idea of inheritance and gives programmers a way to control the style of related HTML elements. This is done by giving similar HTML elements the same <span class="code">class</span> name and then specifying the style that should apply to that class.
+								<br><br>
+								There are three methods of adding CSS to your HTML:
+								<ul>
+									<li>Write CSS in th <code>&lt;head&gt;</code> of your HTML. Easiest method for a small project.</li>
+									<li>Link your HTML to a separate CSS file. Requires an additional step but keeps you organized.</li>
+									<li>Write your style <em>inline</em> with your HTML. This tends to lead to repeated code and more errors.</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="lesson">
+						<br>
+						<h2 id="lesson-4">Lesson 4: Introduction to Serious Programming</h2>
+						<br>
+						<div class="concept" id="lesson-4-1">
+							<div class="concept-title">
+								Computers & Programming
+							</div>
+							<div class="concept-description">
+								<div class="concept-description">
+									A computer is a machine. Unlike other machines that have a specific purpose (like a toaster), computers have many abilities. Programming is the act of giving a computer precise directions so that it will perform what we need it to do. An advantage of programming a computer is the speed at which it can run computations. By writing programs, we can make the most of a computer's ability.
+								</div>
+							</div>
+						</div>
+						<div class="concept" id="lesson-4-2">
+							<div class="concept-title">
+								High Level Languages & Python
+							</div>
+							<div class="concept-description">
+								Python is a high level programming language. One of the advantages of a high level language is the relative ease of use. Python uses a program called an interpreter. The interpreter converts the code into a language that the computer can understand. The interpreter also allows for portability of code across multiple systems.
+								<br>
+							</div>
+						</div>
+						<div class="concept" id="lesson-4-3">
+							<div class="concept-title">
+								Grammars & Backus-Naur Form 
+							</div>
+							<div class="concept-description">
+								The purpose of Backus-Naur Form& is to describe a language simply and concisely. This is the example of an idea used in computer science. <br><br>
+								We can break down the langage into two primary types:
+								<ol>
+									<li>Non-terminals (something that isn't finished)</li>
+									<li>Terminals (something that is completed)</li>
+								</ol> <br><br>
+								Non-terminals can be paired with terminals or other non-terminals.  Non-terminal rules dictate which other non-terminals it can be "linked" with.
+								<br>
+							</div>
+						</div>
+					</div> 
+					<div class="lesson">
+						<br>
+						<h2 id="lesson-5">Lesson 5: Variables & Strings</h2>
+						<br>
+						<div class="concept" id="lesson-5-1">
+							<div class="concept-title">
+								The Variable
+							</div>
+							<div class="concept-description">
+								<div class="concept-description">
+									Variables make our code easier to read and more expressive. A variable is the name for a location in a computer's memory. Using a variable name such as "miles_per_hour" in place of the number "60" increases the readibility of your code. A variable can be given a value of many data types.<br><br>
+									In the example: "miles_per_hour = 60"
+									<ul>
+										<li>Variable is "miles_per_hour"</li>
+										<li>Value is "60</li>
+										<li>Assignment operator "=" gives the variable a value.</li>
+										<li style="list-style-type:none">
+											<ul>
+												<li>Should not be confused with the equals sign in arithmetic.</li>
+											</ul>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="concept" id="lesson-5-2">
+							<div class="concept-title">
+								The String
+							</div>
+							<div class="concept-description">
+								A string is a sequence of characters. In Python, a string can be written between single or double quotes.<br><br>
+								One advantage of strings over numbers is the feature of indexing. Indexing allows us to use square brackets "[ ]" to select a character in a string. If there is a variable that contains the string "udacity" and your code includes the line "print udacity[3]" it will print the fourth character "c".<br><br>
+								You can also select a substring, which is a subsequence of characters within the string. This is done by placing a colon between two index positions, "udacity"[0:4]. If the string "udacity" has the value 123456, the code would print "1234."
+								<br>
+							</div>
+						</div>
+						<div class="concept" id="lesson-5-3">
+							<div class="concept-title">
+								The Find
+							</div>
+							<div class="concept-description">
+								The Find method allows us to locate substrings within a string.  To use Find, you provide the method two strings. It will return the first index of the "target string". If the string is not found, it returns -1. You can pass a number in the second parameter of Find, this causes Find to begin searching at that index.
+								<br>
+							</div>
+						</div>
+					</div> 
+					<div class="lesson">
+						<br>
+						<h2 id="lesson-6">Lesson 6: Input-Function-Output</h2>
+						<br>
+						<div class="concept" id="lesson-6-1">
+							<div class="concept-title">
+								The Function
+							</div>
+							<div class="concept-description">
+								<div class="concept-description">
+									A function is a set of instructions defined by the programmer and is an important part of a program. It allows for readability and reduces redundancy in your code. When defining a function, we list arguments that can be passed to the function. The arguments are like variables used only inside of the function. To use a function, you only need the name and the number and type of arguments you can safely pass. 
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="lesson">
+						<br>
+						<h2 id="lesson-7">Lesson 7: Decisions & Repetition</h2>
+						<br>
+						<div class="concept" id="lesson-7-1">
+							<div class="concept-title">
+								Comparisons
+							</div>
+							<div class="concept-description">
+								<div class="concept-description">
+									Comparison operators in Python are used to compare numbers. The comparison will return a Boolean value of True or False. Some examples of comparison operators are: equal to, is not, less than, and more than.
+								</div>
+							</div>
+						</div>
+						<div class="concept" id="lesson-7-2">
+							<div class="concept-title">
+								The If
+							</div>
+							<div class="concept-description">
+								The if statement tests a given expression to decide if it is True or False. If True, the code inside the if statement will run. If False, the program will skip over the rest of the if statement and advance to the next code.
+							</div>
+						</div>
+						<div class="concept" id="lesson-7-3">
+							<div class="concept-title">
+								The Or
+							</div>
+							<div class="concept-description">
+								The Or Operator in Python allows us to test expressions to see if one evaluates to True. The expression that satisfies the condition is not returned, but it allows the rest of the code to run. If none of the conditions are true, they are skipped.
+								<br>
+							</div>
+						</div>
+						<div class="concept" id="lesson-7-4">
+							<div class="concept-title">
+								The Loop
+							</div>
+							<div class="concept-description">
+								Loops allow us to write a block of code once, but run it multiple times depending on a condition. An example is the While Loop. The While Loops executes the block of code as long as the test expression resolved to True. Once the expression becomes False, the loop is ended and advances to the next code.
+								<br>
+							</div>
+						</div>
+					</div> 
+					<div class="lesson">
+						<br>
+						<h2 id="lesson-8">Lesson 8: Structured Data</h2>
+						<br>
+						<div class="concept" id="lesson-8-1">
+							<div class="concept-title">
+								Lists
+							</div>
+							<div class="concept-description">
+								<div class="concept-description">
+									Unlike a string, which is a sequence of characters, a list can be a sequence of any data type (Even a list of lists!). Just like a string, we have functions that allow us to select a subsequence of the list. Another function we can perform on a list is Mutation. This allows us to modify the contents of the list even after it is written to memory.
+								</div>
+							</div>
+						</div>
+						<div class="concept" id="lesson-8-2">
+							<div class="concept-title">
+								List Operations
+							</div>
+							<div class="concept-description">
+								There are many operations we can perform on a list. For example, we can "append" a list, which simply adds an element to the end of the existing list. The "+" can be used to tack a list on to the end of another list without the need for nesting. The "len" feature can be used to return the number of elements within the specified list. Additionally, we can also use a For Loop to iterate through the list and execute a block of code on the individual element.
+							</div>
+						</div>
+					</div> 
+					<div class="lesson">
+						<br>
+						<h2 id="lesson-9">Lesson 9: In-depth Python</h2>
+						<br>
+						<div class="concept" id="lesson-9-1">
+							<div class="concept-title">
+								Why is OOP important?
+							</div>
+							<div class="concept-description">
+								<div class="concept-description">
+									<p>     
+										<ol>
+											<li>You can break up a problem into smaller, more managable problems.</li>
+											<li>You can reuse code across one program and even multiple projects.</li>
+											<li>Maintain clean, easy to read code.</li>
+											<li>Easy to modify and maintain the code for future updates</li>
+										</ol>
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="concept" id="lesson-9-2">
+							<div class="concept-title">
+								Abstraction
+							</div>
+							<div class="concept-description">
+								<div class="concept-description">
+									<p>     
+										<ol>
+											<li>Abstraction is the idea that you don't have to know everything behind the scenes in order to make use of code other people have written.</li>
+											<li>In Python, a module is an abstraction of the statements and definitions you want to re-use. The modules then can also be abstracted into a package, which organizes a collection of modules inter-referencing each other.</li>
+											<li>Modules serve as a great example of abstraction. You needn't know how the module is made in Python, since you can already use that module.</li>
+										</ol>
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="concept" id="lesson-9-3">
+							<div class="concept-title">
+								Modules
+							</div>
+							<div class="concept-description">
+								<p>In this lesson, we practiced using the "webbrowser", "os", "time", and "turtle" modules. These are all from the Python core modules. We demonstrated the power of abstraction by doing an exercise to create a program that checks profanity words from a .txt file.</p>
+								<p>
+									We also learned a very important skill, which is how to find programming help online. For example, reading the documentation at <a href="https://docs.python.org/3/">Python Standard Library</a> or using <a href="http://stackoverflow.com/questions/tagged/python">stackoverflow.</a>
+								</p>
+							</div>
+						</div>
+						<div class="concept" id="lesson-9-4">
+							<div class="concept-title">
+								Profanity Checker: The Plan
+							</div>
+							<div class="concept-description">
+								<p>We planned the profanity checker using plain English first, before writing the .txt file in Python.</p>
+								<ol>
+									<li>Define the list of profane words I wish to be alerted for.</li>
+									<li>Read through a message word by word.</li>
+									<li>If any word matches the words defined in step 1, send an alert.</li>
+									<li>If no alerts, move on until the scan is finished.</li>
+								</ol>
+							</div>
+						</div>
+						<div class="concept" id="lesson-9-5">
+							<div class="concept-title">
+								Profanity Checker: The Code
+							</div>
+							<div class="concept-description">
+								<p>This lesson provided an online service that already handles this type of procedure as such I didn't need to write any function to produce the steps above. I just need to use urllib to combine the service with Python.</p>
+								<pre> <code>
+		import urllib
+		
+		profanity_URL = "http://www.wdyl.com/profanity?q="
+		# Existing profanity service.
+		
+		# I can append any string after "?q=" and put the URL in a browser
+		# The program will take my string as an input and output the profane words if any, or False if none
+		
+		def read_text():
+		quotes = open("/profanity/movie_quotes.txt")
+		# open(path/to/file) is a built in Python function that allows us to open the specified file.
+		
+		contents_of_file = quotes.read()
+		# The file object has method 'obj.read()' that scans and stores the content of the file
+		
+		print contents_of_file
+		quotes.close()
+		check_profanity(contents_of_file)
+		
+		def check_profanity(text_to_check):
+		connection = urllib.urlopen(profanity_URL + text_to_check)
+		# urllib module has defined a function called urlopen
+		# urllib.ulropen(url\path) seems to work the same way as open(path\to\file)
+		# except that it opens a URL instead of file on my desktop
+		
+		output = connection.read()
+		print output
+		connection.close()
+		
+		read_text()
+								</code></pre>
+							</div>
+						</div>
+					</div> 
+					
+					<div class="lesson">
+						<br>
+						<h2 id="lesson-10">Lesson 10: Classes and Objects</h2>
+						<br>
+						<div class="concept" id="lesson-10-1">
+							<div class="concept-title">
+								Classes and Inheritance
+							</div>
+							<div class="concept-description">
+								<div class="concept-description">
+									<p>The idea of a class can be seen as a categorization of things that share similar attributes.</p><br>
+									
+									<p>"The class is like a blueprint of a building, where-as the object is the actual building that's been built according to the blueprint."</p><br>
+									
+									<p>I visualize the class-object relationship like a parent-child relationship. The child object will always inherit its parents' attributes.</p><br>
+									
+									
+								</div>
+							</div>
+						</div>
+						<div class="concept" id="lesson-10-2">
+							<div class="concept-title">
+								My Analogy
+							</div>
+							<div class="concept-description">
+								I like thinking about vehicles to understand objects and classes. A vehicle has many standard functions like turning on the lights, starting the engine, driving, and stopping. There can also be different properties, such as color, number of wheels, number of cylinders, etc. There can be many instances of a vehicle, for example a compact car, a sedan, a truck, a semi, etc. 
+							</div>
+						</div>
+						<div class="concept" id="lesson-10-3">
+							<div class="concept-title">
+								Class Constructor
+							</div>
+							<div class="concept-description">
+								<p>Python has pre-defined classes, but we can create our own classes.
+								A class definition starts with a function named __ init __ (a constructor), and takes in some attributes of the object as its arguments.</p><br>
+								
+								<p>"A class is a template for objects. A class defines object properties including a valid range of values, and a default value. A class also describes object behavior. An object is a member or an "instance" of a class. An object has a state in which all of its properties have values that you either explicitly define or that are defined by default settings."</p><br>
+								
+								<p>Instance variable: A variable that is defined inside a method and belongs only to the current instance of a class.</p><br>
+								
+								<p>Class variable: A variable that is shared by all instances of a class. Class variables are defined within a class but outside any of the class's methods. Class variables aren't used as frequently as instance variables are.</p><br>
+								
+								<p>Defining Documentation: You can define documentation for your class by using triple quotes, such as:  """This is my documentation""" This would be held in the pre-defined class variable __doc__.</p><br>
+								
+								<p>Reusing Methods: Inside a class, you may define a method. This method then can be accessed by the parent and child instances.</p><br>
+								
+								<p>Method Overriding: If you have created a method under a parent class, such as "show_info", you can define a method of the same name within the child's class. When the child's method is called, it will not run the show_info method that it inherited from the parent, instead it will run the overridden method.</p><br>
+							</div>
+						</div>
+						<div class="concept" id="lesson-10-4">
+							<div class="concept-title">
+								The Turtle Module
+							</div>
+							<div class="concept-description">
+								<p> We were asked to draw flowers, fractals or our initials. I created the flower. This assignment demonstrated the turtle python module and also the importance of loops to simplify your code.</p>
+								<pre>
+									<code>
+					import turtle
+					
+					def draw_square(movement):
+					for i in range(1,3):
+					movement.forward(100)
+					movement.right(45)
+					movement.forward(100)
+					movement.right(135)
+					
+					def draw_line(movement):
+					movement.right(90)
+					movement.forward(300)
+					
+					def draw_art():
+					window = turtle.Screen()
+					window.bgcolor('black')
+					#Create the turtle in diamond shape
+					shape1 = turtle.Turtle()
+					shape1.shape('turtle')
+					shape1.color('blue','green')
+					shape1.speed(5)
+					#Create a loop to draw a flower.
+					for i in range(1,37):
+					draw_square(shape1)
+					shape1.right(10)
+					window.exitonclick()
+					
+					draw_art()
+					
+									</code>
+								</pre>
+								<a href="http://interactivepython.org/runestone/static/pythonds/Recursion/graphical.html">Additional study material.</a>
+							</div>
+						</div>
+					</div> 
+					<div class="lesson">
+						<br>
+						<h2 id="lesson-11">Lesson 11: Networks and Databases</h2>
+						<br>
+						<div class="concept" id="lesson-11-1">
+							<div class="concept-title">
+								Basic Vocabulary
+							</div>
+							<div class="concept-description">
+								<div class="concept-description">
+									<ul>
+										<li> Network: a group of entities that can communicate without being directly connected </li>
+										<li> Latency: time it takes a message to get from source to destination </li>
+										<li> Bandwidth: amount of information that can be transmitted per unit time </li>
+										<li>Protocol: a set of rules that allows two entities to talk to each other (i.e. HTTP)</li>
+										<li> Internet Protocol (IP) address: a numerical label assigned to each device participating in a network. The IP address has two main functions, location addressing and identify host or network interface. Example: 172.16.254.1</li>
+										<li> Uniform Resource Locator (URL): the human readable locator (like www.example.com) which resolves to the numerical IP address.</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="concept" id="lesson-11-2">
+							<div class="concept-title">
+								How Networks Work:
+							</div>
+							<div class="concept-description">
+								<div class="concept-description">
+									
+									<ul>
+										The web browser determines which protocol should be used. Examples of protocols include File Transfer Protocol (FTP) and Hypertext Transfer Protocol (HTTP). To retrieve a document via HTTP, the browser sends the following request to the server:  GET/request-URI HTTP/version. Example GET request with headers below: 
+										<pre><code>
+						GET /course/viewer HTTP/1.1
+						Host: www.udacity.com
+						User-Agent: Chrome v17
+										</code></pre>
+										
+										The server now responds to the browser's requests. It verifies that the given address exists, finds the necessary files, runs the appropriate scripts, exchanges cookies if necessary, and returns the results back to the browser. The server returns a response consisting of a line with a status code, a list of header fields, a blank line, and then the requested document. If the server cannot locate the file, it sends an error message to the client.	
+										Example of a server’s response: 
+										<pre><code>	
+						HTTP/1.0 code text
+						Field1: Value1
+						Field2: Value2
+						
+					...Document content here...</code></pre>
+										<br><p>	
+											The result the server sends is either static or dynamic. Examples of a static response are prewritten files and images. An example of a dynamic response is a web application. Once the browser receives the data, it translates the data into HTML and displays the results to the user.
+										The browser translates the data it has been given in to HTML and displays the results to the user.</p>
+									</ul>
+									
+								</div>
+							</div>
+							<ul>
+								<br>
+								<b>GET Headers:</b>
+								<li>	<b>User-Agent:</b> This is a string identifying the user agent.</li>
+								<li>	<b>Referer: </b>The referer field tells the server where the user came from, which is very useful for logging and keeping track of who links to the webpage.</li>
+								<li>	<b>If-Modified-Since:</b> It the browser already has a version of the document in cache, it can include this field and set it to the time it retrieved the document. </li>
+								<li>	<b>Authorization: </b>This field can hold username and password if the document requires authorization.</li>
+								<br>
+								<b>Headers sent by server:</b>
+								<li>	<b>Location:</b> This tells the user agent the URL where the resource it requested can be found.</li>
+								<li>	<b>Server: </b>This tells the user agent which web server is used. </li>
+								<li>	<b>Content-length: </b>The size of the resource, in bytes. </li>
+								<li>	<b>Content-type: </b>This describes the file format of the resource.</li>
+								<li>	<b>Last-modified:</b> This tells the browser when the resource was last modified. Can be useful for mirroring, update notification etc.</li>
+							</ul>							
+						</div>
+						<div class="concept" id="lesson-11-3">
+							<div class="concept-title">
+								Validation
+							</div>
+							<div class="concept-description">
+								<p>
+									Data validation is the process of checking user input to see whether it is in the expected format and is an allowed value. It has a number of purposes, some of which are below.
+									If the user inputs data that is not within allowed values or is in the wrong format, it could cause the application to execute unexpected behavior. Validation allows for this to be prevented and instead to present a human-readable error message back to the user. Allowing the user to see why the input wasn't accepted greatly aids in usability of the application.
+									Validation can help to ensure that the data stored is complete and nothing is missing. For instance, ensuring that 'required' fields are filled out by the user makes sure that there won't be gaps or empty strings in a record, which could cause problems with the incomplete data is acted upon later.
+								</p>
+							</div>
+						</div>
+						<div class="concept" id="lesson-11-4">
+							<div class="concept-title">
+								Examples of Validation
+							</div>
+							<div class="concept-description">
+								<ul>
+									<li>Make sure the value is a whole number(integer).</li>
+									<li>Make sure the value is numeric and isn't an arbitrary string.</li>
+									<li>Make sure the value sits between the highest value and the lowest value.</li>
+									<li>If there are some values which aren't allowed(such as zero), check that it is not one of those values.</li>
+									<li>Make sure string is a valid length.</li>
+									<li>If string is "required", make sure it isn't blank.</li>
+									<li>Make sure the value is equal to one of the allowed choices.</li>
+									<li>Make sure the value is true or false. Example: 0 or 1</li>
+								</ul>
+							</div>
+						</div>
+						<div class="concept" id="lesson-11-5">
+							<div class="concept-title">
+								Templates 
+							</div>
+							<div class="concept-description">
+								Take far less time to implement(cost effective), you need not spend a lot of time on getting the colors and layout right. You can go straight to changing text and then proceed with programming.
+								
+								Generally much more accessible to people with less technical skills.
+								
+								You have a better understanding of how your intended website looks.
+								
+								Generally better quality.
+								
+								A fantastic way to separate different types of code to make it easier to read thus making your life easier. :D Better organized code is more readable. No HTML in our code and no code in our HTML.
+								
+								More secure websites, less vulnerability. Less worry.
+								
+								Much easier to modify.
+							</div>
+						</div>
+						<div class="concept" id="lesson-11-6">
+							<div class="concept-title">
+								Abstraction 
+							</div>
+							<div class="concept-description">
+								Abstraction is the idea that you don't have to know everything behind the scenes in order to make use of code other people have written.
+								In Python, a module is an abstraction of the statements and definitions you want to re-use. The modules then can also be abstracted into a package, which organizes a collection of modules inter-referencing each other.
+								Modules serve as a great example of abstraction. You needn't know how the module is made in Python, since you can already use that module.		
+							</div>
+						</div>
+					</div> 
+					
+					<div class="lesson">
+						<br>
+					<h2 id="lesson-12">Lesson 12: The Basics of Javascript</h2>
+					<br>
+					<div class="concept" id="lesson-12-1">
+						<div class="concept-title">
+							Variables & Literals 
+						</div>
+						<div class="concept-description">
+							<ul>
+								<li> Variables are “containers” that have a name and hold data (like a string, numeral, Boolean, etc.) To declare a variable, use the reserved word var. For example:  var number 12; </li>
+								<li> Variable names can only begin with an underscore ( _ )  or a letter and must not have spaces. </li>
+								<li> Javascript is able to decide what data type the variable is depending on its declaration. For example, it is Boolean if true/false, and a string if the item is surrounded by quotes.  </li>
+								<p>Literals are values only, without a name.</p>
+								
+							</ul>
+						</div>
+					</div>
+					<div class="concept" id="lesson-12-2">
+						<div class="concept-title">
+							Datatypes
+						</div>
+						<div class="concept-description">
+							Datatypes for variables 
+						<pre>
+							<ol>
+								<li> Booleans </li>
+								<li> Undefined </li>
+								<li> Null  </li>
+								<li> Numbers </li>
+								<li> Strings </li>
+								<li> NaN (Not a Number) is not equal to any value </li>
+							</ol>
+						</pre>
+							However, you don’t have to declare the type when establishing a variable.
+							Note: All other items, including arrays, are considered Objects.	
+						</div>						
+					</div>
+					<div class="concept" id="lesson-12-3">
+						<div class="concept-title">
+							Operators
+						</div>
+						<div class="concept-description">
+							Javascript allows the following binary operators: 
+							<ul>
+								<li>	+  (addition) </li>
+								<li>	–  (subtraction) </li>
+								<li>	*  (multiplication) </li>
+								<li>	/  (division) </li>
+								<li>	%  (modulus)</li>
+							</ul>
+							<br>
+							Javascript allows the following unary operators:
+							<ul>
+								<li>	- (negate)</li>
+								<li>	++ (increment)</li>
+								<li>	-- (decrement) </li>
+							</ul>
+							<br>
+							Comparison Operators (commonly used in loops)
+							<ul>
+								<li>	== (is equal to)</li>
+								<li>	!= (is not equal to)</li>
+								<li>	< (is less than) </li>
+								<li>	<= (is less than or equal to)  </li>
+								<li>	> (is greater than)  </li>
+								<li>	>= (is greater than or equal to) </li>
+									</ul>
+									<br>
+									<p> One interesting feature Javascript has over Python is the operators === and !==. These operators are different in that they do not perform data type conversions before comparing the values. This makes them faster, but can only be used when you know the two values are already of the same time. </p>
+									<br>
+									Other Javascript Operations:
+									<ul>
+										<li>	1 += 3 (1 becomes equal to 1 plus 3) </li>
+										<li>	1 -= 3 (1 becomes equal to 1 minus 3)</li>
+										<li>	1 *= 3 (1 becomes equal to 1 times 3)</li>
+										<li>	1 /= 3 (1 becomes equal to 1 divided by 3) </li>
+										<li>	1 %= 3 (1 becomes equal to 1 modulus 3)</li>
+										<li>	&&  AND (logical operator)</li>
+										<li>	||  OR (logical operator)</li>
+									</ul>
+									</div>
+								</div>
+								<div class="concept" id="lesson-12-4">
+									<div class="concept-title">
+										Object Literals
+									</div>
+									<div class="concept-description">
+										<ul>
+											<p> An object literal is a list of names and values that are surrounded by { }. Object literals can be empty. Example: var empty = {   };</p>
+											<pre> 
+					var person = {
+						birthday: “01/01/2001”
+						hair_color: brown
+						eye_color: green
+					}
+											</pre>
+											<p> To retrieve data from an object, you have two options. One is the dot notation, such as person.birthday, and the other option is square brackets such as person[‘birthday’].</p>
+											<p>Note: Javascript has prototypal inheritance, which means objects inherit from other objects. Prototypal means no classes, but objects inherit from other objects.</p>
+										</ul>
+									</div>
+								</div>
+								<div class="concept" id="lesson-12-5">
+									<div class="concept-title">
+										Truthy and Falsy Values
+									</div>
+									<div class="concept-description">
+										Falsy values consist of:
+										<pre>
+										<ul>
+											<li>Null </li>
+											<li>False</li>
+											<li>Undefined</li>
+											<li>Empty string "  "</li>
+											<li>The number 0</li>
+											<li>The NaN</li>
+										</ul>
+										</pre>
+										Truthy values consist of all other values. This includes all objects and strings, even if the string is the word "false!"
+									</div>
+								</div>
+								<div class="concept" id="lesson-12-6">
+									<div class="concept-title">
+										Functions in Javascript
+									</div>
+									<div class="concept-description">
+										<p>We learned in Python that functions are like mini-programs that allow code reuse and create more readable code. Javascript also allows functions. A function literal consists of four pieces of information. The first item is the word ‘function,’ which is a reserved word to declare that this is going to be a function. The next item is the name of the function (interestingly, this is optional and functions can be anonymous…) The third part of a function is the parameter list. The last bit of the function is the content, or the statements to be invoked. These statements are surrounded by { }. </p>
+										<pre>
+					function name (parameterA, parameterB) {
+						statements;
+					}
+										</pre>
+										<p> When invoking a function, the number of arguments provided does not have to match the number expected. This is different than other programming languages. If the arguments provided are less than what is expected, the function assumed the value is undefined. If the number of arguments is greater than what is expected, the additional arguments are ignored. </p>
+										<p>Functions must return a value. If not specified by the programmer, the function will return undefined.<p>
+										</div>
+										</div>
+										<div class="concept" id="lesson-12-7">
+											<div class="concept-title">
+												Exceptions
+											</div>
+											<div class="concept-description">
+												<p>Try-catch blocks are also used to catch exceptions. The Try block attempts to fun the function, and if an exception occurs, control is passed to the catch block which handles the exception. </p>
+												<p>The throw statement is used to handle possible exceptions like incorrect datatypes. When this occurs, the throw stops the execution of the code. This statement consists of a “name” which is the type of exception, then a “message” that explains the error that occurred. A throw statement may look like this:</p>
+												<pre>
+					throw {
+						name: 'TypeError';
+						message: 'Function requires numbers';
+					}							
+												</pre>
+											</div>
+										</div>
+										<div class="concept" id="lesson-12-8">
+											<div class="concept-title">
+												Arrays
+											</div>
+											<div class="concept-description">
+												<p>Javascript includes an array-like object that can contain any mixture of values. It appears like [a, b, c, d], where a’s propery name is 0, b’s is 1, etc.  The array has a “length” property which allows us to find the number of elements. Length increases as elements are added to the array. Arrays in Javascript also have a useful push() method which allows us to add an element to the end of the array. And conversely, pop() allows us to remove the last item. Delete() allows us to remove an object from the array, however an empty spot is left. An alternative is to splice() the array. Javascript only has one dimensional arrays, but can have arrays of arrays.</p><br>
+												<p>There are two ways to create an array in Javascript.</p>
+												<ul>
+													<li>var cities = new Array("Orlando","San Francisco","New York","Las Vegas");	 </li>
+													<li>var cities = ["Orlando","San Francisco","New York","Las Vegas"]; </li>
+												</ul>
+											</div>
+										</div>
+										<div class="concept" id="lesson-12-9">
+											<div class="concept-title">
+												Facts About Regular Expressions
+											</div>
+											<div class="concept-description">
+												<ul>
+													<li> Always begin and end with a /</li>
+													<li> Must be on a single line. </li>
+													<li> ^ denotes the beginning of a string  </li>
+													<li> ? indicates an optional group </li>
+													<li> A-Za-z denotes a character class that contains both upper and lower case letters of the full alphabet. </li>
+													<li> + denotes one or more times  </li>
+													<li> * denotes zero or more times</li>
+													<li>\d represents a digit </li>
+													<li> $ represents the end of a string </li>
+													<li> i means ignore case for previous letters  </li>
+													<li> / \ [ ]  -  ^ characters must be escaped in regular expressions. To escape, put \ before the character.</li>
+												</ul>	
+											</div>						
+										</div>
+										
+										<div class="concept" id="lesson-12-10">
+											<div class="concept-title">
+												Decision Making Statements
+											</div>
+											<div class="concept-description">
+												<p>If-Else Statement:  Performs like the Python statement, however the syntax is different. </p>
+												<pre>
+					if (condition) {
+						statement; 
+						statement
+					}
+					else {
+						statement; 
+						statement
+					};
+												</pre>
+												<p>The For Loop: The for loop allows you to run a piece of code for a specified number of times. The values you must provide to the For loop is an initial and final value, as well as the increment. An example of a for loop is displayed below.  </p>
+												<pre>
+					for (i = 0; i <= 100; i++) 	{
+						statements
+					};
+												</pre>	
+														
+														<p>The While Loop: The while loop is similar to a for loop because it allows you to run a piece of code a specific number of times. However, the syntax is different as you do not need to explicitly provide the number of times. </p>
+														<pre>
+					while (i > 0) {
+						statements;
+						i--
+					};
+														</pre>				
+													</div>						
+												</div>
+												<div class="concept" id="lesson-12-11">
+													<div class="concept-title">
+														Objects
+													</div>
+													<div class="concept-description">
+														
+															<p>Objects may have properties, methods, and events. A property is simply a variable that is associated with the object. The method is a function that the object is able to perform at the request of the user. Events trigger responses by the object and are specifically useful in web design. For example, you can allow an image to change when the mouse hovers over it. You will notice this is a feature I have implemented in the navigation menu of my website. I chose to do this because it suited the needs of my website and also developing a menu seemed like a good way to learn the basics of Javascript.</p>
+															<ul>
+																<pre>
+																			<li> Window</li>
+																			<li> Document </li>
+																			<li> Form  </li>
+																			<li> Date </li>
+																			<li> Date </li>
+																			<li> Math  </li>
+																			<li> String </li>
+																			<li>\d represents a digit </li>
+																			<li> $ represents the end of a string </li>
+																			<li> i means ignore case for previous letters  </li>
+																			<li> / \ [ ]  -  ^ characters must be escaped in regular expressions. To escape, put \ before the character.</li>
+																</pre>
+															</ul>	
+													</div>						
+												</div>
+												
+												<div class="concept" id="lesson-12-12">
+													<div class="concept-title">
+														How to add Javascript to your website:
+													</div>
+													<div class="concept-description">			
+														Javascript code is placed between the script tags.								
+														Javascript can be called from an external file.
+														<br>
+														<p>Why use Javascript and how does it relate to web design?</p>
+														<ul>
+															<li>1. HTML defines a web page's content</li>
+															<li>2. CSS specifies the layout of the page</li>
+															<li>3. JavaScript controls the behavior of the web page</li>
+														</ul>
+														<br>
+														<p>
+															One useful method in javascript is .getElementById(), which I made use of in my website. This method finds an HTML element with a particular ID and then performs some action with it.
+															
+															Javascript can display data by opening a dialogue window (window.alert()), writing to the HTML (document.write() or innterHTML), or writing into the browser console (console.log()).
+														</p>
+													</div>				
+												</div>
+												<div class="concept" id="lesson-12-13">
+													<div class="concept-title">
+														Javascript Events
+													</div>
+													<div class="concept-description">
+													<p>								
+													An event is something the browser or user does. In HTML, an event may be the change of an input field or the clicking of a button. We are able to execute code at the occurrence of one of these events. 
+													</p>
+														Examples of HTML events:
+														<ul>
+															<li>onchange: when an element changes</li>
+															<li>onclick: when the user clicks the element</li>
+															<li>onmouseover: when user moves mouse of the element</li>
+															<li>onmouseout: when user moves away from the element</li>
+															<li>onkeydown: when user pushes a key</li>
+															<li>onload: when page finishes loading</li>
+														</ul>
+													</div>				
+												</div>
+												<div class="concept" id="lesson-12-14">
+													<div class="concept-title">
+														Javascript Resources
+													</div>
+													<div class="concept-description">
+														<ol>
+															<li>Crockford, D. (2008). JavaScript: The Good Parts. O'Reilly. (This book was fun!)</li>
+															<li>JavaScript Notes. (n.d.). Retrieved June 6, 2015, from <a href="http://www-cs-students.stanford.edu/~wolfe/javascript/">http://www-cs-students.stanford.edu/~wolfe/javascript/</a> </li>
+															<li>JavaScript Reference. (n.d.). Retrieved June 6, 2015, from 
+															<a href="https://msdn.microsoft.com/library/yek4tbz0(v=vs.94).aspx">https://msdn.microsoft.com/library/yek4tbz0(v=vs.94).aspx</a></li>
+															<li>JavaScript Tutorial. (n.d.). Retrieved June 7, 2015, from <a href="http://www.w3schools.com/js/">http://www.w3schools.com/js/</a>
+																</li>	
+														</ol>
+													</div>						
+												</div>
+											</div> 		
+					<div class="container">
+						<div class="row comment-wall">
+							<div class="col-md-4">
+								<h4>Hello, {{user_name}}!</h4>
+							</div>
+							<div class="col-md-8">
+								{% if url_linktext == 'login' %}
+								<h4>Please <a href="{{url}}">{{url_linktext}}</a> to leave a comment.</h4>
+								{% else %}
+								<h4><a href="{{url}}">{{url_linktext}}</a></h4>
+								<br>
+								<form class="form-submission" action="/comment?comment" method="post">
+									<textarea class="form-control" name="content"  rows="5" cols="90" required></textarea><br>
+									<input type="submit" class="btn btn-primary" value="Leave Comment">
+								</form>
+								{% endif %}
+							</div>
+						</div>
+						<div class="row comment-container">
+							<div class="md-col-12">
+								<br><br>
+								{% block content %}{% endblock %}
+							</div>
+							{% if continue_posts %}
+							<div class="md-col-12 next-comment">
+								<h4><a href="/?comments=&continue_posts={{continue_posts}}#lesson-11-6">Next</a></h4>
+							</div>
+							{% endif %}
+						</div>
+					</div>
+				</div> 
+			</div>
+		</div>
+	</body>
+</html>                   									

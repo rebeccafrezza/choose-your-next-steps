@@ -1,0 +1,61 @@
+.menu, .menu li ul
+{
+	list-style-type: none;
+	margin: 0;
+	padding: 20px 0 0 0;
+	width: 200px; 
+}
+
+.menu li
+{
+	vertical-align: center;
+	position: relative;
+}
+
+.menu li a
+{
+	background: #0F466E;
+	font: bold 12px Verdana, Helvetica, sans-serif;
+	color: white;
+	display: block;
+	width: auto;
+	height: 35px;
+	padding: 15px 0 0 10px;
+	text-decoration: none;
+}
+
+.menu li ul
+{
+	position: absolute;
+	width: 200px; 
+	left: 0;
+	top: -20px;
+	display: none;
+	z-index: 999;
+}
+
+.menu li ul li
+{
+	float: left;
+}
+
+.menu li ul a
+{
+	width: 180px; 
+}
+
+.menu .menudiv
+{
+	position: absolute;
+	right: 6px;
+}
+
+.menu li a:visited, .menu li a:active
+{
+	color: black;
+}
+
+.menu li a:hover
+{
+	background: black;
+}
